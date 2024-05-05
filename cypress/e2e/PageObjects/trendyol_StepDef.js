@@ -15,7 +15,7 @@ Given('I visit {string} and I close the pop-up', (url) => {
     cy.get('[data-testid="selected-country-code"]').trigger('mouseover');  // ---- HERE
     cy.contains('Poland').click();
     cy.contains('Türkiye').click();
-    cy.contains('Save').click();
+    cy.contains('Save').click(); //-- TO HERE
   });
 
   
